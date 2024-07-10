@@ -39,7 +39,7 @@ export class getData {
 
             document.querySelectorAll('.card').forEach((card) => {
                 card.addEventListener('click', () => {
-                    $('.loading').fadeIn(800,function () {
+                    $('.loading').fadeIn(800, function () {
                         document.querySelector('.details').classList.remove('d-none')
                         $('body').css({ 'overflow': 'hidden' });
                         $('.details').css({ 'overflow': 'scroll' });
