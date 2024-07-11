@@ -42,7 +42,7 @@ export class getData {
                     $('.loading').fadeIn(800, function () {
                         document.querySelector('.details').classList.remove('d-none')
                         $('body').css({ 'overflow': 'hidden' });
-                        $('.details').css({ 'overflow': 'scroll' });
+                        $('.details').css({ 'overflow': 'auto' });
 
                         new Detailes(card.dataset.id)
                     });
